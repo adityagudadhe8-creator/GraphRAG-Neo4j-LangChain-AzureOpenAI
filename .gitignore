@@ -1,0 +1,21 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Local secrets and environment configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local generated notebook exports
+*.html
+*.pdf
+
+# Approved synthetic GraphRAG demo corpus
+!data/*.pdf
